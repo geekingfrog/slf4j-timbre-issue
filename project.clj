@@ -8,6 +8,8 @@
                  [commons-logging/commons-logging "1.2"]
                  [com.taoensso/timbre "4.8.0"]
                  [log4j/log4j "1.2.17"]
-                 [com.fzakaria/slf4j-timbre "0.3.2"]
-                 [org.slf4j/log4j-over-slf4j "1.7.14"]
+
+                 ;;;;;;;; Uncomment the next two lines to get the slf4j behavior: no stack trace
+                 ;; [com.fzakaria/slf4j-timbre "0.3.2"]
+                 ;; [org.slf4j/log4j-over-slf4j "1.7.14"]
                  ])
